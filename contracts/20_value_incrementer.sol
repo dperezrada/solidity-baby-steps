@@ -1,3 +1,4 @@
+pragma solidity ^0.4.11;
 // This contract demonstrates a simple non-constant (transactional) function you can call from geth.
 // increment() takes no parameters and merely increments the "iteration" value. 
 

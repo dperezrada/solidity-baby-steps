@@ -11,6 +11,7 @@ contract('creatorBalanceChecker', function(accounts) {
       assert.equal(42, contract_address.length);
     });
   });
+
   it("should be able to get creator balances (current and past)", function() {
     var instance;
     var creator_balance;
@@ -26,4 +27,5 @@ contract('creatorBalanceChecker', function(accounts) {
       assert.isAtLeast(creator_balance, creator_current_balance);
     });
   });
+  
 });

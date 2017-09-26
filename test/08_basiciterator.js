@@ -11,6 +11,7 @@ contract('BasicIterator', function(accounts) {
       assert.equal(45, returned_sum.valueOf());
     });
   });
+
   it("should get sum when starting from 10", function() {
     var iterator;
 
@@ -21,4 +22,5 @@ contract('BasicIterator', function(accounts) {
       assert.equal(145, returned_sum.valueOf());
     });
   });
+  
 });
