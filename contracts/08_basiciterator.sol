@@ -1,3 +1,4 @@
+pragma solidity ^0.4.11;
 /*
 	This is a very simple demonstration of a while loops. Same as JS/c.
 */
