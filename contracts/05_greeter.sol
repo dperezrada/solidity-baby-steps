@@ -1,3 +1,4 @@
+pragma solidity ^0.4.11;
 /* 
 	The following is an extremely basic example of a solidity contract. 
 	It takes a string upon creation and then repeats it when greet() is called.
